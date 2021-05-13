@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Puritan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+}
+
+#container {
+    width: 80%;
+    min-width: 920px;
+    height: 100%;
+    margin: 5px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+
+#topo_menu {
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    background: #CCC4BC;
+}
+
+#topo_menu span {
+    float: left;
+    margin-left: 15px;
+    line-height: 70px;
+}
+
+ul#menu_principal {
+    float: right;
+    margin-right: 15px;
+    line-height: 70px;
+}
+
+ul#menu_principal li {
+    display: inline;
+    margin: 5px 10px;
+    padding: 2px 10px;
+}
+
+ul#menu_principal li a {
+    color: white;
+    padding: 2px 12px;
+    background: rgb(102, 138, 247);
+    text-decoration: none;
+}
+
+ul#menu_principal li a:hover {
+    color: white;
+    background: rgb(105, 91, 91);
+    box-shadow: black 2px 2px 4px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+#conteudo {
+    width: 100%;
+    min-height: 700px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#cabecalho_mdaltro {
+    width: 100%;
+    height: 100px;
+    border: 3px dotted rgb(139, 138, 138);
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#cabecalho_mdaltro h2 {
+    color: rgb(102, 138, 247);
+    font-family: 'Kalam', cursive;
+    text-shadow: rgba(0, 0, 0, 0.808) 3px 3px 1px;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#cabecalho_mdaltro h2 span {
+    font-family: 'Puritan', sans-serif;;
+    color: white;
+    background-color: #CCC4BC;
+    text-shadow: rgba(0,0,0,0.4) 3px 3px 1px;
+}
+
+#quem_sou_eu {
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 10px;
+    padding-bottom: 20px;
+    background: #e4ded9;
+}
+
+#quem_sou_interno {
+    margin: 5px;
+}
+
+#descricao h2 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 3px 5px;
+    background: rgb(102, 138, 247);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#descricao p {
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 2px solid rgb(139, 138, 138) ;
+}
+
+
+#auto_retrato {
+    width: 48%;
+    max-width: 500px;
+    margin-top: 10px;
+    border-style: outset;
+    border-color: 10px black;
+    box-shadow: black 4px 4px 8px;
+    float: left;
+}
+
+img.retrato {
+    width: 100%;
+    margin: 0 auto;
+    float: right;
+}
+
+#descricao{
+    width: 48%;
+    margin-left: 10px;
+    float: right;
+}
+
+/* LATERAL */
+
+aside {
+    width: 26%;
+    height: auto;
+    float: right;
+    padding: 5px 5px;
+    
+    /*
+    background-image: url(../imagens/lapis_fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+} 
+
+#lateral {
+    min-width: 235px;
+    max-width: 300px;
+    height: 100%;
+    border-radius: 5%;
+    box-shadow: black 3px 3px 6px;
+    padding: 10px;
+    text-align: center;
+    background: rgb(102, 138, 247) url(../imagens/estojo.png) no-repeat center;
+}
+
+#lateral h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 3px dotted rgb(255, 255, 255);
+    padding: 4px 1px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(58, 57, 57);
+}
+
+#lateral h3.email_titulo {
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 4px 1px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(58, 57, 57);
+}
+
+.link {
+    height: 100px;
+    width: 85%;
+    margin: 15px auto;
+    line-height: 100px;
+}
+
+.facebook {
+    background-color: #1877f2;
+    border: 2px solid white;
+    border-radius: 5% 30% 5% 30%;
+    color: white;
+    font-size: 1.4em;  
+}
+
+ul#menu_contato li .facebook:hover {
+    box-shadow: 4px 4px 6px rgb(0, 0, 0);
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border: 2px solid white;
+    border-radius: 5% 30% 5% 30%;
+    color: white;
+    font-size: 1.4em;
+}
+
+ul#menu_contato li .instagram:hover {
+    box-shadow: 4px 4px 6px rgb(0, 0, 0);
+}
+
+.email {
+    background-color: #73c58e;
+    border: 2px solid white;
+    border-radius: 5% 30% 5% 30%;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 0.9em;
+}
+
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    margin: 5px;
+    padding: 10px 0;    
+}
+
+.rodape {
+    min-width: 920px;
+    max-width: 80%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    background: #CCC4BC;
+}
